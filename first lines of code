@@ -1,0 +1,4 @@
+def vector(matrix):  # класс, который рассчитывает приоритетный вектор
+    vect = matrix[:, 0]
+    a = vect / vect.sum()
+    return a
